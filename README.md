@@ -12,7 +12,7 @@ Each text segment is classified as NORMAL, HIGH_PRIORITY, or ANOMALY using multi
 
 Textification Layer: Converts numeric sensor readings into subsystem-level textual summaries.
 
-Multi-Model Evaluation: Includes six modeling paradigms — TF–IDF + SVC, Gradient Boosting, CRF, TextCNN, BERT, and Zero-Shot NLI.
+Multi-Model Evaluation: Includes six modeling paradigms, TF–IDF + SVC, Gradient Boosting, CRF, TextCNN, BERT, and Zero-Shot NLI.
 
 Temporal and Interpretability Focus: Models evaluated for quantitative accuracy and qualitative temporal coherence.
 
