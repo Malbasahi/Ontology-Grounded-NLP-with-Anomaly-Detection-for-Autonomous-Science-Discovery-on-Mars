@@ -20,7 +20,14 @@ Visualization Suite: Generates confusion matrices, ROC curves, calibration plots
 
 Fully Reproducible: Independent data splits and random seeds for each model ensure consistent evaluation.
 
+## Dataset
 
+The dataset used in this work originates from NASA’s Mars Science Laboratory (MSL) telemetry, available publicly on Kaggle:  
+🔗 [NASA Anomaly Detection Dataset (SMAP & MSL) — Kaggle](https://www.kaggle.com/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl?resource=download)
+
+- The dataset contains multivariate time-series telemetry for MSL subsystems.  
+- Anomaly intervals are pre-annotated, enabling supervised window-level classification.  
+- After preprocessing, **27 files** and **~73,729 records** were retained for analysis.
 
 ## Summary Results
 
