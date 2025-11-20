@@ -21,35 +21,6 @@ Visualization Suite: Generates confusion matrices, ROC curves, calibration plots
 Fully Reproducible: Independent data splits and random seeds for each model ensure consistent evaluation.
 
 
-## pipeline 
-
-Raw Telemetry (.npy)
-↓
-Per-file Z-Normalization
-↓
-Windowing (W=80, S=40)
-↓
-Subsystem Mapping + Textification
-↓
-Model Training & Evaluation
-(TF–IDF, Gradient Boosting, CRF, TextCNN, BERT, NLI)
-↓
-Structured Anomaly Reports
-
-
-## Structured Anomaly Reports
-
-├── data/                     # Processed data, metrics, and output folders
-│   ├── processed/            # Textified MSL dataset
-│   ├── figs/                 # Generated plots
-│   └── tables/               # Model evaluation tables
-├── notebooks/
-│   └── MSL_Textification.ipynb   # Full training & evaluation pipeline
-├── models/                   # Saved model weights and vectorizers
-├── requirements.txt          # Dependencies list
-├── README.md
-└── LICENSE
-
 
 ## Summary Results
 
