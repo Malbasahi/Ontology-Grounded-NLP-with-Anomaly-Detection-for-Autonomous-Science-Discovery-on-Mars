@@ -20,20 +20,23 @@ Visualization Suite: Generates confusion matrices, ROC curves, calibration plots
 
 Fully Reproducible: Independent data splits and random seeds for each model ensure consistent evaluation.
 
+
 ## pipeline 
 
 Raw Telemetry (.npy)
-        ↓
+↓
 Per-file Z-Normalization
-        ↓
+↓
 Windowing (W=80, S=40)
-        ↓
+↓
 Subsystem Mapping + Textification
-        ↓
-Model Training & Evaluation (TF–IDF, GB, CRF, TextCNN, BERT, NLI)
+↓
+Model Training & Evaluation
+(TF–IDF, Gradient Boosting, CRF, TextCNN, BERT, NLI)
+↓
+Structured Anomaly Reports
 
 
-        ↓
 ## Structured Anomaly Reports
 
 ├── data/                     # Processed data, metrics, and output folders
