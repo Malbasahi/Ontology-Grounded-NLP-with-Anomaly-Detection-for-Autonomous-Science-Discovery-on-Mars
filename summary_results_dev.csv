@@ -1,0 +1,7 @@
+Model,Accuracy,Macro-F1
+Gradient Boosting,0.7756,0.419
+TextCNN (focal + margins),0.7535,0.406
+CRF (seq + policy),0.8006,0.3513
+TF–IDF + LinearSVC,0.7839,0.3142
+BERT (fine-tuned),0.8227,0.301
+Zero-shot NLI,0.2881,0.2088
