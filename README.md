@@ -164,7 +164,7 @@ start results\plots\confusion_matrix_gboost.png
 
 ---
 
-## 🔧 Future Work
+## Future Work
 
 * Improve minority anomaly detection via
   **focal / contrastive learning** and **data augmentation**
@@ -174,7 +174,3 @@ start results\plots\confusion_matrix_gboost.png
 * Explore semi-supervised and domain-adaptive training
 
 ---
-
-✔ add examples of generated outputs
-
-Just tell me your preferred level of formality or detail.
